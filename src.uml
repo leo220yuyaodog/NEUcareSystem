@@ -1,0 +1,1296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>D:/Users/MI/Documents/careSystem/src</OriginalElement>
+  <nodes>
+    <node x="1286.590873015873" y="-2540.5">com.careSystem.view.QuziFrame</node>
+    <node x="3607.0" y="-2482.0">com.careSystem.view.FrameRender</node>
+    <node x="3762.0" y="-4019.0">com.careSystem.service.FQLinkService</node>
+    <node x="965.0" y="-2162.0">com.careSystem.view.UpdateWorkFrame</node>
+    <node x="1180.490873015873" y="-3655.0">com.careSystem.tables.EstimateTable</node>
+    <node x="2911.0" y="-3573.0">com.careSystem.dao.FormDao</node>
+    <node x="2179.0" y="-2208.5">com.careSystem.tables.PatientTable</node>
+    <node x="4239.0" y="-4374.0">com.careSystem.pojo.FQ_Link</node>
+    <node x="3243.0" y="-3655.0">com.careSystem.dao.impl.QuesDaoImpl</node>
+    <node x="2892.0" y="-4043.0">com.careSystem.pojo.FormWork</node>
+    <node x="2780.0" y="-2208.5">com.careSystem.dao.impl.PatientDaoImpl</node>
+    <node x="1440.0" y="-2185.0">com.careSystem.view.EstimateFrame</node>
+    <node x="1140.690873015873" y="-2994.5">com.careSystem.view.AdviceFrame</node>
+    <node x="35.0" y="-2220.0">com.careSystem.dao.impl.WorkDaoImpl</node>
+    <node x="503.5" y="-538.0">com.careSystem.view.ManagerFrame</node>
+    <node x="731.5" y="-880.0">com.careSystem.view.Login</node>
+    <node x="4173.0" y="-3678.0">com.careSystem.tables.QuestionTable</node>
+    <node x="3529.0" y="-3632.0">com.careSystem.service.impl.QuesServiceImpl</node>
+    <node x="3842.0" y="-2243.0">com.careSystem.view.MyquestionEditor</node>
+    <node x="3573.590873015873" y="-3099.0">com.careSystem.service.impl.FQLinkServiceImpl</node>
+    <node x="2461.0" y="-2185.5">com.careSystem.service.impl.PatientServiceImpl</node>
+    <node x="166.0" y="-2539.5">com.careSystem.dao.WorkDao</node>
+    <node x="2517.590873015873" y="-3110.5">com.careSystem.tables.FormTable</node>
+    <node x="661.0" y="-2197.0">com.careSystem.service.impl.WorkServiceImpl</node>
+    <node x="1270.0" y="-1812.0">com.careSystem.view.MyEditor</node>
+    <node x="3345.0" y="-2598.5">com.careSystem.tables.FQLinkTable</node>
+    <node x="3476.0" y="-4007.5">com.careSystem.service.QuesService</node>
+    <node x="339.0" y="-2220.0">com.careSystem.tables.WorkTable</node>
+    <node x="887.490873015873" y="-3597.5">com.careSystem.service.impl.EstimateServiceImpl</node>
+    <node x="2320.0" y="-3985.5">com.careSystem.utils.Util</node>
+    <node x="1932.590873015873" y="-3133.0">com.careSystem.pojo.Patient</node>
+    <node x="3025.590873015873" y="-3110.5">com.careSystem.service.impl.FormServiceImpl</node>
+    <node x="592.490873015873" y="-3609.0">com.careSystem.dao.impl.EstimateDaoImpl</node>
+    <node x="461.75" y="-3133.0">com.careSystem.pojo.Worker</node>
+    <node x="3301.590873015873" y="-3099.0">com.careSystem.dao.impl.FormDaoImpl</node>
+    <node x="4230.0" y="-2575.0">com.careSystem.view.AddQuestionFrame</node>
+    <node x="1758.0" y="-1268.0">com.careSystem.view.PatientFrame</node>
+    <node x="3348.5" y="-2127.5">com.careSystem.view.FormWorkFrame</node>
+    <node x="716.240873015873" y="-3973.5">com.careSystem.dao.EstimateDao</node>
+    <node x="1667.590873015873" y="-2994.5">com.careSystem.utils.IconHandler</node>
+    <node x="1006.8658730158729" y="-3973.5">com.careSystem.service.EstimateService</node>
+    <node x="3119.0" y="-2552.0">com.careSystem.view.FormWorkList</node>
+    <node x="4004.333333333333" y="-1696.5">com.careSystem.view.QuestionFrame</node>
+    <node x="2541.0" y="-2528.0">com.careSystem.dao.PatientDao</node>
+    <node x="3679.25" y="-4408.5">com.careSystem.pojo.Question</node>
+    <node x="2799.590873015873" y="-3018.0">com.careSystem.view.AddFormWork</node>
+    <node x="3835.0" y="-3620.5">com.careSystem.dao.impl.FQLinkDaoImpl</node>
+    <node x="3170.0" y="-3996.0">com.careSystem.dao.QuesDao</node>
+    <node x="543.25" y="-2551.0">com.careSystem.service.WorkService</node>
+    <node x="4097.0" y="-3984.5">com.careSystem.dao.FQLinkDao</node>
+    <node x="2575.0" y="-3608.0">com.careSystem.service.FormService</node>
+    <node x="463.0" y="-242.0">com.careSystem.view.AddworkFrame</node>
+    <node x="1276.340873015873" y="-4443.0">com.careSystem.pojo.Estimate</node>
+    <node x="2182.0" y="-2528.0">com.careSystem.service.PatientService</node>
+    <node x="1883.0" y="-2173.5">com.careSystem.view.AddpatientFrame</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.careSystem.service.FormService" target="com.careSystem.pojo.FormWork" relationship="DEPENDENCY">
+      <point x="0.0" y="-97.5" />
+      <point x="2698.0" y="-3638.0" />
+      <point x="3016.0" y="-3638.0" />
+      <point x="0.0" y="109.5" />
+    </edge>
+    <edge source="com.careSystem.view.AddworkFrame" target="com.careSystem.view.ManagerFrame" relationship="DEPENDENCY">
+      <point x="18.0" y="-121.0" />
+      <point x="589.0" y="-292.0" />
+      <point x="652.0" y="-292.0" />
+      <point x="49.5" y="98.0" />
+    </edge>
+    <edge source="com.careSystem.view.ManagerFrame" target="com.careSystem.view.AddworkFrame" relationship="DEPENDENCY">
+      <point x="-49.5" y="98.0" />
+      <point x="-18.0" y="-121.0" />
+    </edge>
+    <edge source="com.careSystem.dao.WorkDao" target="com.careSystem.pojo.Worker" relationship="DEPENDENCY">
+      <point x="0.0" y="-85.5" />
+      <point x="303.0" y="-2569.5" />
+      <point x="680.25" y="-2569.5" />
+      <point x="0.0" y="178.5" />
+    </edge>
+    <edge source="com.careSystem.view.ManagerFrame" target="com.careSystem.pojo.Worker" relationship="DEPENDENCY">
+      <point x="-82.5" y="-98.0" />
+      <point x="520.0" y="-568.0" />
+      <point x="20.0" y="-568.0" />
+      <point x="20.0" y="-2230.0" />
+      <point x="40.0" y="-2230.0" />
+      <point x="40.0" y="-2569.5" />
+      <point x="680.25" y="-2569.5" />
+      <point x="0.0" y="178.5" />
+    </edge>
+    <edge source="com.careSystem.view.PatientFrame" target="com.careSystem.pojo.Patient" relationship="DEPENDENCY">
+      <point x="-20.0" y="-144.0" />
+      <point x="1848.0" y="-2580.5" />
+      <point x="2167.0" y="-2580.5" />
+      <point x="2167.0" y="-2746.0" />
+      <point x="2150.090873015873" y="-2746.0" />
+      <point x="0.0" y="178.5" />
+    </edge>
+    <edge source="com.careSystem.view.ManagerFrame" target="com.careSystem.utils.Util" relationship="DEPENDENCY">
+      <point x="82.5" y="-98.0" />
+      <point x="685.0" y="-568.0" />
+      <point x="3064.0" y="-568.0" />
+      <point x="3064.0" y="-2218.5" />
+      <point x="2961.75" y="-2218.5" />
+      <point x="2961.75" y="-2708.5" />
+      <point x="2442.590873015873" y="-2708.5" />
+      <point x="2442.590873015873" y="-3153.0" />
+      <point x="2440.0" y="-3153.0" />
+      <point x="2440.0" y="-3718.0" />
+      <point x="2420.0" y="-3718.0" />
+      <point x="0.0" y="52.0" />
+    </edge>
+    <edge source="com.careSystem.view.EstimateFrame" target="com.careSystem.pojo.Estimate" relationship="TO_ONE">
+      <point x="20.272727272727252" y="-132.5" />
+      <point x="1571.7727272727273" y="-2215.0" />
+      <point x="1572.590873015873" y="-2215.0" />
+      <point x="98.75" y="167.0" />
+    </edge>
+    <edge source="com.careSystem.tables.FQLinkTable" target="com.careSystem.pojo.Question" relationship="DEPENDENCY">
+      <point x="-46.40000000000009" y="-144.5" />
+      <point x="3414.6" y="-2800.0" />
+      <point x="3558.590873015873" y="-2800.0" />
+      <point x="3558.590873015873" y="-3323.0" />
+      <point x="3228.0" y="-3323.0" />
+      <point x="3228.0" y="-3728.0" />
+      <point x="3155.0" y="-3728.0" />
+      <point x="3155.0" y="-4059.0" />
+      <point x="3838.25" y="-4059.0" />
+      <point x="0.0" y="132.5" />
+    </edge>
+    <edge source="com.careSystem.view.ManagerFrame" target="com.careSystem.tables.WorkTable" relationship="CREATE">
+      <point x="-49.5" y="-98.0" />
+      <point x="553.0" y="-578.0" />
+      <point x="455.0" y="-578.0" />
+      <point x="0.0" y="167.5" />
+    </edge>
+    <edge source="com.careSystem.tables.FQLinkTable" target="com.careSystem.utils.Util" relationship="DEPENDENCY">
+      <point x="-92.80000000000018" y="-144.5" />
+      <point x="3368.2" y="-2788.5" />
+      <point x="3286.590873015873" y="-2788.5" />
+      <point x="3286.590873015873" y="-3273.0" />
+      <point x="2896.0" y="-3273.0" />
+      <point x="2896.0" y="-3718.0" />
+      <point x="2420.0" y="-3718.0" />
+      <point x="0.0" y="52.0" />
+    </edge>
+    <edge source="com.careSystem.tables.WorkTable" target="com.careSystem.service.WorkService" relationship="TO_ONE">
+      <point x="77.33333333333337" y="-167.5" />
+      <point x="532.3333333333334" y="-2250.0" />
+      <point x="611.75" y="-2250.0" />
+      <point x="-68.5" y="97.0" />
+    </edge>
+    <edge source="com.careSystem.service.EstimateService" target="com.careSystem.pojo.Estimate" relationship="DEPENDENCY">
+      <point x="0.0" y="-40.0" />
+      <point x="1096.865873015873" y="-4079.0" />
+      <point x="1375.090873015873" y="-4079.0" />
+      <point x="-98.75" y="167.0" />
+    </edge>
+    <edge source="com.careSystem.service.impl.EstimateServiceImpl" target="com.careSystem.pojo.Estimate" relationship="DEPENDENCY">
+      <point x="-32.875" y="-87.0" />
+      <point x="986.115873015873" y="-4003.5" />
+      <point x="1096.865873015873" y="-4003.5" />
+      <point x="1096.865873015873" y="-4079.0" />
+      <point x="1375.090873015873" y="-4079.0" />
+      <point x="-98.75" y="167.0" />
+    </edge>
+    <edge source="com.careSystem.tables.FQLinkTable" target="com.careSystem.service.impl.FQLinkServiceImpl" relationship="DEPENDENCY">
+      <point x="0.0" y="-144.5" />
+      <point x="3461.0" y="-2628.5" />
+      <point x="3579.090873015873" y="-2628.5" />
+      <point x="3579.090873015873" y="-2780.0" />
+      <point x="3726.090873015873" y="-2780.0" />
+      <point x="0.0" y="144.5" />
+    </edge>
+    <edge source="com.careSystem.view.FormWorkList" target="com.careSystem.view.FormWorkFrame" relationship="DEPENDENCY">
+      <point x="49.0" y="98.0" />
+      <point x="3266.0" y="-2177.5" />
+      <point x="3411.0" y="-2177.5" />
+      <point x="-37.5" y="-75.0" />
+    </edge>
+    <edge source="com.careSystem.view.FormWorkFrame" target="com.careSystem.view.FormWorkList" relationship="DEPENDENCY">
+      <point x="-62.5" y="-75.0" />
+      <point x="3386.0" y="-2167.5" />
+      <point x="3168.0" y="-2167.5" />
+      <point x="-49.0" y="98.0" />
+    </edge>
+    <edge source="com.careSystem.view.PatientFrame" target="com.careSystem.view.FormWorkList" relationship="DEPENDENCY">
+      <point x="80.0" y="-144.0" />
+      <point x="1948.0" y="-1308.0" />
+      <point x="3168.0" y="-1308.0" />
+      <point x="-49.0" y="98.0" />
+    </edge>
+    <edge source="com.careSystem.view.AddworkFrame" target="com.careSystem.service.WorkService" relationship="TO_ONE">
+      <point x="-54.0" y="-121.0" />
+      <point x="517.0" y="-282.0" />
+      <point x="488.5" y="-282.0" />
+      <point x="488.5" y="-598.0" />
+      <point x="646.0" y="-598.0" />
+      <point x="646.0" y="-2250.0" />
+      <point x="611.75" y="-2250.0" />
+      <point x="-68.5" y="97.0" />
+    </edge>
+    <edge source="com.careSystem.service.impl.PatientServiceImpl" target="com.careSystem.dao.PatientDao" relationship="TO_ONE">
+      <point x="100.875" y="-133.0" />
+      <point x="2696.375" y="-2278.5" />
+      <point x="2608.25" y="-2278.5" />
+      <point x="-67.25" y="74.0" />
+    </edge>
+    <edge source="com.careSystem.view.AddFormWork" target="com.careSystem.pojo.FormWork" relationship="CREATE">
+      <point x="65.33333333333348" y="-63.5" />
+      <point x="2962.9242063492065" y="-3243.0" />
+      <point x="2836.0" y="-3243.0" />
+      <point x="2836.0" y="-3638.0" />
+      <point x="3016.0" y="-3638.0" />
+      <point x="0.0" y="109.5" />
+    </edge>
+    <edge source="com.careSystem.service.impl.EstimateServiceImpl" target="com.careSystem.service.EstimateService" relationship="REALIZATION">
+      <point x="32.875" y="-87.0" />
+      <point x="-45.0" y="40.0" />
+    </edge>
+    <edge source="com.careSystem.dao.impl.FQLinkDaoImpl" target="com.careSystem.dao.FQLinkDao" relationship="REALIZATION">
+      <point x="-57.0" y="-110.0" />
+      <point x="3892.0" y="-3808.0" />
+      <point x="4211.0" y="-3808.0" />
+      <point x="0.0" y="51.0" />
+    </edge>
+    <edge source="com.careSystem.view.PatientFrame" target="com.careSystem.pojo.Worker" relationship="CREATE">
+      <point x="-60.0" y="-144.0" />
+      <point x="1808.0" y="-1318.0" />
+      <point x="1255.0" y="-1318.0" />
+      <point x="1255.0" y="-2260.0" />
+      <point x="1210.590873015873" y="-2260.0" />
+      <point x="1210.590873015873" y="-2569.5" />
+      <point x="680.25" y="-2569.5" />
+      <point x="0.0" y="178.5" />
+    </edge>
+    <edge source="com.careSystem.dao.PatientDao" target="com.careSystem.pojo.Patient" relationship="DEPENDENCY">
+      <point x="0.0" y="-74.0" />
+      <point x="2675.5" y="-2580.5" />
+      <point x="2167.0" y="-2580.5" />
+      <point x="2167.0" y="-2746.0" />
+      <point x="2150.090873015873" y="-2746.0" />
+      <point x="0.0" y="178.5" />
+    </edge>
+    <edge source="com.careSystem.dao.FormDao" target="com.careSystem.pojo.FormWork" relationship="DEPENDENCY">
+      <point x="0.0" y="-62.5" />
+      <point x="3032.0" y="-3638.0" />
+      <point x="3016.0" y="-3638.0" />
+      <point x="0.0" y="109.5" />
+    </edge>
+    <edge source="com.careSystem.service.impl.WorkServiceImpl" target="com.careSystem.dao.WorkDao" relationship="TO_ONE">
+      <point x="-102.75" y="-144.5" />
+      <point x="695.25" y="-2270.0" />
+      <point x="371.5" y="-2270.0" />
+      <point x="68.5" y="85.5" />
+    </edge>
+    <edge source="com.careSystem.view.AddQuestionFrame" target="com.careSystem.pojo.Question" relationship="CREATE">
+      <point x="65.0" y="-121.0" />
+      <point x="4392.5" y="-2638.5" />
+      <point x="4440.0" y="-2638.5" />
+      <point x="4440.0" y="-4059.0" />
+      <point x="3838.25" y="-4059.0" />
+      <point x="0.0" y="132.5" />
+    </edge>
+    <edge source="com.careSystem.view.EstimateFrame" target="com.careSystem.service.WorkService" relationship="TO_ONE">
+      <point x="-101.36363636363649" y="-132.5" />
+      <point x="1450.1363636363635" y="-2250.0" />
+      <point x="611.75" y="-2250.0" />
+      <point x="-68.5" y="97.0" />
+    </edge>
+    <edge source="com.careSystem.dao.impl.QuesDaoImpl" target="com.careSystem.dao.QuesDao" relationship="REALIZATION">
+      <point x="-64.0" y="-144.5" />
+      <point x="3307.0" y="-3738.0" />
+      <point x="3234.0" y="-3738.0" />
+      <point x="-64.0" y="62.5" />
+    </edge>
+    <edge source="com.careSystem.view.EstimateFrame" target="com.careSystem.service.PatientService" relationship="TO_ONE">
+      <point x="101.36363636363626" y="-132.5" />
+      <point x="1652.8636363636363" y="-2238.5" />
+      <point x="2249.25" y="-2238.5" />
+      <point x="-67.25" y="74.0" />
+    </edge>
+    <edge source="com.careSystem.tables.FormTable" target="com.careSystem.pojo.FormWork" relationship="DEPENDENCY">
+      <point x="0.0" y="-156.0" />
+      <point x="2633.590873015873" y="-3213.0" />
+      <point x="2540.0" y="-3213.0" />
+      <point x="2540.0" y="-3638.0" />
+      <point x="3016.0" y="-3638.0" />
+      <point x="0.0" y="109.5" />
+    </edge>
+    <edge source="com.careSystem.service.impl.WorkServiceImpl" target="com.careSystem.pojo.Worker" relationship="DEPENDENCY">
+      <point x="34.25" y="-144.5" />
+      <point x="832.25" y="-2569.5" />
+      <point x="680.25" y="-2569.5" />
+      <point x="0.0" y="178.5" />
+    </edge>
+    <edge source="com.careSystem.view.MyquestionEditor" target="com.careSystem.view.AddQuestionFrame" relationship="DEPENDENCY">
+      <point x="0.0" y="-190.5" />
+      <point x="4123.5" y="-2273.0" />
+      <point x="4376.25" y="-2273.0" />
+      <point x="48.75" y="121.0" />
+    </edge>
+    <edge source="com.careSystem.view.FormWorkFrame" target="com.careSystem.utils.Util" relationship="DEPENDENCY">
+      <point x="-87.5" y="-75.0" />
+      <point x="3361.0" y="-2157.5" />
+      <point x="3104.0" y="-2157.5" />
+      <point x="3104.0" y="-2728.5" />
+      <point x="2482.590873015873" y="-2728.5" />
+      <point x="2482.590873015873" y="-3153.0" />
+      <point x="2480.0" y="-3153.0" />
+      <point x="2480.0" y="-3718.0" />
+      <point x="2420.0" y="-3718.0" />
+      <point x="0.0" y="52.0" />
+    </edge>
+    <edge source="com.careSystem.view.PatientFrame" target="com.careSystem.utils.Util" relationship="DEPENDENCY">
+      <point x="60.0" y="-144.0" />
+      <point x="1928.0" y="-1318.0" />
+      <point x="2446.0" y="-1318.0" />
+      <point x="2446.0" y="-2195.5" />
+      <point x="2466.0" y="-2195.5" />
+      <point x="2466.0" y="-2638.5" />
+      <point x="2382.590873015873" y="-2638.5" />
+      <point x="2382.590873015873" y="-3153.0" />
+      <point x="2380.0" y="-3153.0" />
+      <point x="2380.0" y="-3718.0" />
+      <point x="2420.0" y="-3718.0" />
+      <point x="0.0" y="52.0" />
+    </edge>
+    <edge source="com.careSystem.view.PatientFrame" target="com.careSystem.view.MyEditor" relationship="CREATE">
+      <point x="-40.0" y="-144.0" />
+      <point x="1828.0" y="-1328.0" />
+      <point x="1551.5" y="-1328.0" />
+      <point x="0.0" y="202.0" />
+    </edge>
+    <edge source="com.careSystem.view.FormWorkList" target="com.careSystem.tables.FormTable" relationship="CREATE">
+      <point x="-49.0" y="-98.0" />
+      <point x="3168.0" y="-2748.5" />
+      <point x="2633.590873015873" y="-2748.5" />
+      <point x="0.0" y="156.0" />
+    </edge>
+    <edge source="com.careSystem.view.UpdateWorkFrame" target="com.careSystem.utils.Util" relationship="DEPENDENCY">
+      <point x="91.66666666666674" y="-109.5" />
+      <point x="1194.1666666666667" y="-2260.0" />
+      <point x="1125.690873015873" y="-2260.0" />
+      <point x="1125.690873015873" y="-3004.5" />
+      <point x="1432.490873015873" y="-3004.5" />
+      <point x="1432.490873015873" y="-3718.0" />
+      <point x="2420.0" y="-3718.0" />
+      <point x="0.0" y="52.0" />
+    </edge>
+    <edge source="com.careSystem.view.QuestionFrame" target="com.careSystem.tables.QuestionTable" relationship="CREATE">
+      <point x="0.0" y="-86.5" />
+      <point x="4101.833333333333" y="-1766.5" />
+      <point x="3807.0" y="-1766.5" />
+      <point x="3807.0" y="-2638.5" />
+      <point x="3973.590873015873" y="-2638.5" />
+      <point x="3973.590873015873" y="-2964.5" />
+      <point x="4289.0" y="-2964.5" />
+      <point x="0.0" y="167.5" />
+    </edge>
+    <edge source="com.careSystem.service.impl.FormServiceImpl" target="com.careSystem.pojo.FormWork" relationship="CREATE">
+      <point x="30.75" y="-156.0" />
+      <point x="3179.340873015873" y="-3263.0" />
+      <point x="2876.0" y="-3263.0" />
+      <point x="2876.0" y="-3638.0" />
+      <point x="3016.0" y="-3638.0" />
+      <point x="0.0" y="109.5" />
+    </edge>
+    <edge source="com.careSystem.view.FormWorkFrame" target="com.careSystem.view.FrameRender" relationship="CREATE">
+      <point x="62.5" y="-75.0" />
+      <point x="3511.0" y="-2167.5" />
+      <point x="3679.5" y="-2167.5" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="com.careSystem.dao.impl.PatientDaoImpl" target="com.careSystem.pojo.Patient" relationship="CREATE">
+      <point x="67.25" y="-156.0" />
+      <point x="2981.75" y="-2580.5" />
+      <point x="2167.0" y="-2580.5" />
+      <point x="2167.0" y="-2746.0" />
+      <point x="2150.090873015873" y="-2746.0" />
+      <point x="0.0" y="178.5" />
+    </edge>
+    <edge source="com.careSystem.view.PatientFrame" target="com.careSystem.view.AddpatientFrame" relationship="DEPENDENCY">
+      <point x="0.0" y="-144.0" />
+      <point x="1868.0" y="-1348.0" />
+      <point x="1888.0" y="-1348.0" />
+      <point x="1888.0" y="-1630.0" />
+      <point x="2016.0" y="-1630.0" />
+      <point x="0.0" y="121.0" />
+    </edge>
+    <edge source="com.careSystem.view.QuestionFrame" target="com.careSystem.utils.Util" relationship="DEPENDENCY">
+      <point x="-86.66666666666652" y="-86.5" />
+      <point x="4015.1666666666665" y="-1726.5" />
+      <point x="3084.0" y="-1726.5" />
+      <point x="3084.0" y="-2718.5" />
+      <point x="2462.590873015873" y="-2718.5" />
+      <point x="2462.590873015873" y="-3153.0" />
+      <point x="2460.0" y="-3153.0" />
+      <point x="2460.0" y="-3718.0" />
+      <point x="2420.0" y="-3718.0" />
+      <point x="0.0" y="52.0" />
+    </edge>
+    <edge source="com.careSystem.view.AdviceFrame" target="com.careSystem.pojo.Estimate" relationship="DEPENDENCY">
+      <point x="-57.0" y="-40.0" />
+      <point x="1197.690873015873" y="-3153.0" />
+      <point x="832.490873015873" y="-3153.0" />
+      <point x="832.490873015873" y="-3738.0" />
+      <point x="911.240873015873" y="-3738.0" />
+      <point x="911.240873015873" y="-4003.5" />
+      <point x="1096.865873015873" y="-4003.5" />
+      <point x="1096.865873015873" y="-4079.0" />
+      <point x="1375.090873015873" y="-4079.0" />
+      <point x="-98.75" y="167.0" />
+    </edge>
+    <edge source="com.careSystem.view.QuziFrame" target="com.careSystem.pojo.Question" relationship="DEPENDENCY">
+      <point x="0.0" y="-86.5" />
+      <point x="1412.090873015873" y="-2580.5" />
+      <point x="1472.490873015873" y="-2580.5" />
+      <point x="1472.490873015873" y="-4059.0" />
+      <point x="3838.25" y="-4059.0" />
+      <point x="0.0" y="132.5" />
+    </edge>
+    <edge source="com.careSystem.view.QuziFrame" target="com.careSystem.utils.IconHandler" relationship="DEPENDENCY">
+      <point x="50.200000000000045" y="-86.5" />
+      <point x="1462.290873015873" y="-2570.5" />
+      <point x="1775.090873015873" y="-2570.5" />
+      <point x="0.0" y="40.0" />
+    </edge>
+    <edge source="com.careSystem.view.UpdateWorkFrame" target="com.careSystem.service.WorkService" relationship="TO_ONE">
+      <point x="-91.66666666666663" y="-109.5" />
+      <point x="1010.8333333333334" y="-2250.0" />
+      <point x="611.75" y="-2250.0" />
+      <point x="-68.5" y="97.0" />
+    </edge>
+    <edge source="com.careSystem.view.Login" target="com.careSystem.view.PatientFrame" relationship="DEPENDENCY">
+      <point x="67.39999999999998" y="-121.0" />
+      <point x="967.4" y="-920.0" />
+      <point x="1923.0" y="-920.0" />
+      <point x="55.0" y="144.0" />
+    </edge>
+    <edge source="com.careSystem.view.PatientFrame" target="com.careSystem.view.Login" relationship="DEPENDENCY">
+      <point x="-55.0" y="144.0" />
+      <point x="1813.0" y="-930.0" />
+      <point x="900.0" y="-930.0" />
+      <point x="0.0" y="-121.0" />
+    </edge>
+    <edge source="com.careSystem.tables.EstimateTable" target="com.careSystem.service.EstimateService" relationship="TO_ONE">
+      <point x="-79.0" y="-144.5" />
+      <point x="1219.990873015873" y="-3728.0" />
+      <point x="1141.865873015873" y="-3728.0" />
+      <point x="45.0" y="40.0" />
+    </edge>
+    <edge source="com.careSystem.view.AddpatientFrame" target="com.careSystem.utils.Util" relationship="DEPENDENCY">
+      <point x="0.0" y="-121.0" />
+      <point x="2016.0" y="-2248.5" />
+      <point x="1947.3333333333333" y="-2248.5" />
+      <point x="1947.3333333333333" y="-2638.5" />
+      <point x="1897.590873015873" y="-2638.5" />
+      <point x="1897.590873015873" y="-3718.0" />
+      <point x="2420.0" y="-3718.0" />
+      <point x="0.0" y="52.0" />
+    </edge>
+    <edge source="com.careSystem.view.AdviceFrame" target="com.careSystem.view.EstimateFrame" relationship="DEPENDENCY">
+      <point x="-57.0" y="40.0" />
+      <point x="1197.690873015873" y="-2579.5" />
+      <point x="1250.590873015873" y="-2579.5" />
+      <point x="1250.590873015873" y="-2280.0" />
+      <point x="1490.681818181818" y="-2280.0" />
+      <point x="-60.81818181818187" y="-132.5" />
+    </edge>
+    <edge source="com.careSystem.tables.FormTable" target="com.careSystem.utils.Util" relationship="DEPENDENCY">
+      <point x="-77.33333333333348" y="-156.0" />
+      <point x="2556.2575396825396" y="-3203.0" />
+      <point x="2520.0" y="-3203.0" />
+      <point x="2520.0" y="-3718.0" />
+      <point x="2420.0" y="-3718.0" />
+      <point x="0.0" y="52.0" />
+    </edge>
+    <edge source="com.careSystem.service.impl.FQLinkServiceImpl" target="com.careSystem.dao.QuesDao" relationship="TO_ONE">
+      <point x="-57.1875" y="-144.5" />
+      <point x="3668.903373015873" y="-3349.0" />
+      <point x="3514.0" y="-3349.0" />
+      <point x="3514.0" y="-3789.5" />
+      <point x="3440.5" y="-3789.5" />
+      <point x="3440.5" y="-3841.0" />
+      <point x="3362.0" y="-3841.0" />
+      <point x="64.0" y="62.5" />
+    </edge>
+    <edge source="com.careSystem.service.impl.FormServiceImpl" target="com.careSystem.service.FormService" relationship="REALIZATION">
+      <point x="-92.25" y="-156.0" />
+      <point x="3056.340873015873" y="-3233.0" />
+      <point x="2759.5" y="-3233.0" />
+      <point x="61.5" y="97.5" />
+    </edge>
+    <edge source="com.careSystem.dao.impl.EstimateDaoImpl" target="com.careSystem.dao.EstimateDao" relationship="REALIZATION">
+      <point x="56.25" y="-98.5" />
+      <point x="-45.0" y="40.0" />
+    </edge>
+    <edge source="com.careSystem.view.EstimateFrame" target="com.careSystem.view.QuziFrame" relationship="DEPENDENCY">
+      <point x="-20.272727272727252" y="-132.5" />
+      <point x="1531.2272727272727" y="-2300.0" />
+      <point x="1412.090873015873" y="-2300.0" />
+      <point x="0.0" y="86.5" />
+    </edge>
+    <edge source="com.careSystem.service.impl.FQLinkServiceImpl" target="com.careSystem.service.FQLinkService" relationship="REALIZATION">
+      <point x="57.1875" y="-144.5" />
+      <point x="3783.278373015873" y="-3149.0" />
+      <point x="3820.0" y="-3149.0" />
+      <point x="3820.0" y="-3818.0" />
+      <point x="3914.5" y="-3818.0" />
+      <point x="0.0" y="85.5" />
+    </edge>
+    <edge source="com.careSystem.service.impl.EstimateServiceImpl" target="com.careSystem.dao.EstimateDao" relationship="TO_ONE">
+      <point x="-98.625" y="-87.0" />
+      <point x="920.365873015873" y="-3728.0" />
+      <point x="851.240873015873" y="-3728.0" />
+      <point x="45.0" y="40.0" />
+    </edge>
+    <edge source="com.careSystem.view.QuziFrame" target="com.careSystem.pojo.Estimate" relationship="CREATE">
+      <point x="-50.200000000000045" y="-86.5" />
+      <point x="1361.890873015873" y="-2590.5" />
+      <point x="1452.490873015873" y="-2590.5" />
+      <point x="1452.490873015873" y="-4003.5" />
+      <point x="1096.865873015873" y="-4003.5" />
+      <point x="1096.865873015873" y="-4079.0" />
+      <point x="1375.090873015873" y="-4079.0" />
+      <point x="-98.75" y="167.0" />
+    </edge>
+    <edge source="com.careSystem.view.QuestionFrame" target="com.careSystem.view.AddQuestionFrame" relationship="DEPENDENCY">
+      <point x="43.33333333333303" y="-86.5" />
+      <point x="4145.166666666666" y="-1746.5" />
+      <point x="4420.0" y="-1746.5" />
+      <point x="4420.0" y="-2273.0" />
+      <point x="4376.25" y="-2273.0" />
+      <point x="48.75" y="121.0" />
+    </edge>
+    <edge source="com.careSystem.view.AddQuestionFrame" target="com.careSystem.view.QuestionFrame" relationship="DEPENDENCY">
+      <point x="-48.75" y="121.0" />
+      <point x="4278.75" y="-2283.0" />
+      <point x="3827.0" y="-2283.0" />
+      <point x="3827.0" y="-1746.5" />
+      <point x="4080.1666666666665" y="-1746.5" />
+      <point x="-21.666666666666686" y="-86.5" />
+    </edge>
+    <edge source="com.careSystem.service.impl.FQLinkServiceImpl" target="com.careSystem.dao.impl.FQLinkDaoImpl" relationship="DEPENDENCY">
+      <point x="95.3125" y="-144.5" />
+      <point x="3821.403373015873" y="-3139.0" />
+      <point x="3949.0" y="-3139.0" />
+      <point x="0.0" y="110.0" />
+    </edge>
+    <edge source="com.careSystem.view.QuziFrame" target="com.careSystem.service.impl.FQLinkServiceImpl" relationship="DEPENDENCY">
+      <point x="100.40000000000009" y="-86.5" />
+      <point x="1512.4908730158731" y="-2628.5" />
+      <point x="3579.0908730158735" y="-2628.5" />
+      <point x="3579.090873015873" y="-2780.0" />
+      <point x="3726.090873015873" y="-2780.0" />
+      <point x="0.0" y="144.5" />
+    </edge>
+    <edge source="com.careSystem.service.FQLinkService" target="com.careSystem.pojo.FQ_Link" relationship="DEPENDENCY">
+      <point x="76.25" y="-85.5" />
+      <point x="3990.75" y="-4049.0" />
+      <point x="4360.0" y="-4049.0" />
+      <point x="4360.0" y="-4148.0" />
+      <point x="4337.0" y="-4148.0" />
+      <point x="0.0" y="98.0" />
+    </edge>
+    <edge source="com.careSystem.dao.impl.EstimateDaoImpl" target="com.careSystem.pojo.Estimate" relationship="DEPENDENCY">
+      <point x="-56.25" y="-98.5" />
+      <point x="648.740873015873" y="-3639.0" />
+      <point x="701.240873015873" y="-3639.0" />
+      <point x="701.240873015873" y="-4003.5" />
+      <point x="1096.865873015873" y="-4003.5" />
+      <point x="1096.865873015873" y="-4079.0" />
+      <point x="1375.090873015873" y="-4079.0" />
+      <point x="-98.75" y="167.0" />
+    </edge>
+    <edge source="com.careSystem.dao.impl.FormDaoImpl" target="com.careSystem.pojo.FormWork" relationship="CREATE">
+      <point x="60.5" y="-144.5" />
+      <point x="3483.090873015873" y="-3303.0" />
+      <point x="3188.0" y="-3303.0" />
+      <point x="3188.0" y="-3638.0" />
+      <point x="3016.0" y="-3638.0" />
+      <point x="0.0" y="109.5" />
+    </edge>
+    <edge source="com.careSystem.dao.impl.WorkDaoImpl" target="com.careSystem.dao.WorkDao" relationship="REALIZATION">
+      <point x="68.5" y="-167.5" />
+      <point x="240.5" y="-2250.0" />
+      <point x="234.5" y="-2250.0" />
+      <point x="-68.5" y="85.5" />
+    </edge>
+    <edge source="com.careSystem.service.impl.FQLinkServiceImpl" target="com.careSystem.pojo.FQ_Link" relationship="DEPENDENCY">
+      <point x="133.4375" y="-144.5" />
+      <point x="3859.528373015873" y="-3129.0" />
+      <point x="4078.0" y="-3129.0" />
+      <point x="4078.0" y="-3788.0" />
+      <point x="4360.0" y="-3788.0" />
+      <point x="4360.0" y="-4148.0" />
+      <point x="4337.0" y="-4148.0" />
+      <point x="0.0" y="98.0" />
+    </edge>
+    <edge source="com.careSystem.view.AddQuestionFrame" target="com.careSystem.utils.Util" relationship="DEPENDENCY">
+      <point x="-65.0" y="-121.0" />
+      <point x="4262.5" y="-3333.0" />
+      <point x="3208.0" y="-3333.0" />
+      <point x="3208.0" y="-3718.0" />
+      <point x="2420.0" y="-3718.0" />
+      <point x="0.0" y="52.0" />
+    </edge>
+    <edge source="com.careSystem.view.FormWorkFrame" target="com.careSystem.service.impl.FQLinkServiceImpl" relationship="DEPENDENCY">
+      <point x="87.5" y="-75.0" />
+      <point x="3536.0" y="-2157.5" />
+      <point x="3767.0" y="-2157.5" />
+      <point x="3767.0" y="-2628.5" />
+      <point x="3579.090873015873" y="-2628.5" />
+      <point x="3579.090873015873" y="-2780.0" />
+      <point x="3726.090873015873" y="-2780.0" />
+      <point x="0.0" y="144.5" />
+    </edge>
+    <edge source="com.careSystem.service.impl.QuesServiceImpl" target="com.careSystem.pojo.Question" relationship="DEPENDENCY">
+      <point x="32.0" y="-121.5" />
+      <point x="3689.0" y="-3799.5" />
+      <point x="3461.0" y="-3799.5" />
+      <point x="3461.0" y="-4059.0" />
+      <point x="3838.25" y="-4059.0" />
+      <point x="0.0" y="132.5" />
+    </edge>
+    <edge source="com.careSystem.service.impl.QuesServiceImpl" target="com.careSystem.service.QuesService" relationship="REALIZATION">
+      <point x="96.0" y="-121.5" />
+      <point x="3753.0" y="-3809.5" />
+      <point x="3540.0" y="-3809.5" />
+      <point x="-64.0" y="74.0" />
+    </edge>
+    <edge source="com.careSystem.tables.PatientTable" target="com.careSystem.service.PatientService" relationship="TO_ONE">
+      <point x="77.33333333333348" y="-156.0" />
+      <point x="2372.3333333333335" y="-2238.5" />
+      <point x="2249.25" y="-2238.5" />
+      <point x="-67.25" y="74.0" />
+    </edge>
+    <edge source="com.careSystem.view.PatientFrame" target="com.careSystem.service.WorkService" relationship="TO_ONE">
+      <point x="-100.0" y="-144.0" />
+      <point x="1768.0" y="-1298.0" />
+      <point x="626.0" y="-1298.0" />
+      <point x="626.0" y="-2250.0" />
+      <point x="611.75" y="-2250.0" />
+      <point x="-68.5" y="97.0" />
+    </edge>
+    <edge source="com.careSystem.view.FormWorkList" target="com.careSystem.service.impl.FQLinkServiceImpl" relationship="DEPENDENCY">
+      <point x="81.66666666666652" y="-98.0" />
+      <point x="3298.6666666666665" y="-2628.5" />
+      <point x="3579.090873015873" y="-2628.5" />
+      <point x="3579.090873015873" y="-2780.0" />
+      <point x="3726.090873015873" y="-2780.0" />
+      <point x="0.0" y="144.5" />
+    </edge>
+    <edge source="com.careSystem.dao.impl.FormDaoImpl" target="com.careSystem.dao.FormDao" relationship="REALIZATION">
+      <point x="-60.5" y="-144.5" />
+      <point x="3362.090873015873" y="-3283.0" />
+      <point x="3092.5" y="-3283.0" />
+      <point x="60.5" y="62.5" />
+    </edge>
+    <edge source="com.careSystem.service.QuesService" target="com.careSystem.pojo.Question" relationship="DEPENDENCY">
+      <point x="0.0" y="-74.0" />
+      <point x="3604.0" y="-4059.0" />
+      <point x="3838.25" y="-4059.0" />
+      <point x="0.0" y="132.5" />
+    </edge>
+    <edge source="com.careSystem.view.AddFormWork" target="com.careSystem.utils.Util" relationship="DEPENDENCY">
+      <point x="0.0" y="-63.5" />
+      <point x="2897.590873015873" y="-3223.0" />
+      <point x="2560.0" y="-3223.0" />
+      <point x="2560.0" y="-3718.0" />
+      <point x="2420.0" y="-3718.0" />
+      <point x="0.0" y="52.0" />
+    </edge>
+    <edge source="com.careSystem.view.AddworkFrame" target="com.careSystem.pojo.Worker" relationship="CREATE">
+      <point x="-90.0" y="-121.0" />
+      <point x="481.0" y="-272.0" />
+      <point x="0.0" y="-272.0" />
+      <point x="0.0" y="-2569.5" />
+      <point x="680.25" y="-2569.5" />
+      <point x="0.0" y="178.5" />
+    </edge>
+    <edge source="com.careSystem.view.AddworkFrame" target="com.careSystem.utils.IconHandler" relationship="DEPENDENCY">
+      <point x="90.0" y="-121.0" />
+      <point x="661.0" y="-272.0" />
+      <point x="2765.0" y="-272.0" />
+      <point x="2765.0" y="-2218.5" />
+      <point x="2825.0" y="-2218.5" />
+      <point x="2825.0" y="-2570.5" />
+      <point x="1775.090873015873" y="-2570.5" />
+      <point x="0.0" y="40.0" />
+    </edge>
+    <edge source="com.careSystem.view.PatientFrame" target="com.careSystem.service.PatientService" relationship="TO_ONE">
+      <point x="40.0" y="-144.0" />
+      <point x="1908.0" y="-1328.0" />
+      <point x="2426.0" y="-1328.0" />
+      <point x="2426.0" y="-2238.5" />
+      <point x="2249.25" y="-2238.5" />
+      <point x="-67.25" y="74.0" />
+    </edge>
+    <edge source="com.careSystem.service.impl.QuesServiceImpl" target="com.careSystem.utils.Util" relationship="DEPENDENCY">
+      <point x="-96.0" y="-121.5" />
+      <point x="3561.0" y="-3718.0" />
+      <point x="2420.0" y="-3718.0" />
+      <point x="0.0" y="52.0" />
+    </edge>
+    <edge source="com.careSystem.view.ManagerFrame" target="com.careSystem.service.WorkService" relationship="TO_ONE">
+      <point x="-16.5" y="-98.0" />
+      <point x="586.0" y="-2250.0" />
+      <point x="611.75" y="-2250.0" />
+      <point x="-68.5" y="97.0" />
+    </edge>
+    <edge source="com.careSystem.service.impl.FQLinkServiceImpl" target="com.careSystem.service.impl.QuesServiceImpl" relationship="DEPENDENCY">
+      <point x="-19.0625" y="-144.5" />
+      <point x="3707.028373015873" y="-3359.0" />
+      <point x="3657.0" y="-3359.0" />
+      <point x="0.0" y="121.5" />
+    </edge>
+    <edge source="com.careSystem.view.EstimateFrame" target="com.careSystem.service.FormService" relationship="TO_ONE">
+      <point x="81.09090909090901" y="-132.5" />
+      <point x="1632.590873015873" y="-3143.0" />
+      <point x="2764.590873015873" y="-3143.0" />
+      <point x="2764.590873015873" y="-3383.0" />
+      <point x="2636.5" y="-3383.0" />
+      <point x="-61.5" y="97.5" />
+    </edge>
+    <edge source="com.careSystem.service.impl.FormServiceImpl" target="com.careSystem.dao.FormDao" relationship="TO_ONE">
+      <point x="92.25" y="-156.0" />
+      <point x="3240.840873015873" y="-3293.0" />
+      <point x="2971.5" y="-3293.0" />
+      <point x="-60.5" y="62.5" />
+    </edge>
+    <edge source="com.careSystem.view.EstimateFrame" target="com.careSystem.tables.EstimateTable" relationship="CREATE">
+      <point x="-40.545454545454504" y="-132.5" />
+      <point x="1510.9545454545455" y="-2290.0" />
+      <point x="1271.590873015873" y="-2290.0" />
+      <point x="1271.590873015873" y="-2600.5" />
+      <point x="1383.690873015873" y="-2600.5" />
+      <point x="1383.690873015873" y="-3173.0" />
+      <point x="1298.990873015873" y="-3173.0" />
+      <point x="0.0" y="144.5" />
+    </edge>
+    <edge source="com.careSystem.tables.QuestionTable" target="com.careSystem.pojo.Question" relationship="DEPENDENCY">
+      <point x="77.33333333333303" y="-167.5" />
+      <point x="4366.333333333333" y="-3718.0" />
+      <point x="4420.0" y="-3718.0" />
+      <point x="4420.0" y="-4059.0" />
+      <point x="3838.25" y="-4059.0" />
+      <point x="0.0" y="132.5" />
+    </edge>
+    <edge source="com.careSystem.dao.QuesDao" target="com.careSystem.pojo.Question" relationship="DEPENDENCY">
+      <point x="0.0" y="-62.5" />
+      <point x="3298.0" y="-4059.0" />
+      <point x="3838.25" y="-4059.0" />
+      <point x="0.0" y="132.5" />
+    </edge>
+    <edge source="com.careSystem.view.AddworkFrame" target="com.careSystem.utils.Util" relationship="DEPENDENCY">
+      <point x="54.0" y="-121.0" />
+      <point x="625.0" y="-282.0" />
+      <point x="716.5" y="-282.0" />
+      <point x="716.5" y="-940.0" />
+      <point x="926.4" y="-940.0" />
+      <point x="926.4" y="-1358.0" />
+      <point x="1868.0" y="-1358.0" />
+      <point x="1868.0" y="-2638.5" />
+      <point x="1652.590873015873" y="-2638.5" />
+      <point x="1652.590873015873" y="-3718.0" />
+      <point x="2420.0" y="-3718.0" />
+      <point x="0.0" y="52.0" />
+    </edge>
+    <edge source="com.careSystem.service.impl.FormServiceImpl" target="com.careSystem.utils.Util" relationship="DEPENDENCY">
+      <point x="-30.75" y="-156.0" />
+      <point x="3117.840873015873" y="-3253.0" />
+      <point x="2856.0" y="-3253.0" />
+      <point x="2856.0" y="-3718.0" />
+      <point x="2420.0" y="-3718.0" />
+      <point x="0.0" y="52.0" />
+    </edge>
+    <edge source="com.careSystem.tables.WorkTable" target="com.careSystem.utils.Util" relationship="DEPENDENCY">
+      <point x="0.0" y="-167.5" />
+      <point x="455.0" y="-2579.5" />
+      <point x="446.75" y="-2579.5" />
+      <point x="446.75" y="-3143.0" />
+      <point x="852.490873015873" y="-3143.0" />
+      <point x="852.490873015873" y="-3718.0" />
+      <point x="2420.0" y="-3718.0" />
+      <point x="0.0" y="52.0" />
+    </edge>
+    <edge source="com.careSystem.tables.QuestionTable" target="com.careSystem.utils.Util" relationship="DEPENDENCY">
+      <point x="-77.33333333333334" y="-167.5" />
+      <point x="4211.666666666667" y="-3718.0" />
+      <point x="2420.0" y="-3718.0" />
+      <point x="0.0" y="52.0" />
+    </edge>
+    <edge source="com.careSystem.tables.FormTable" target="com.careSystem.service.FormService" relationship="TO_ONE">
+      <point x="77.33333333333334" y="-156.0" />
+      <point x="2710.9242063492065" y="-3143.0" />
+      <point x="2764.590873015873" y="-3143.0" />
+      <point x="2764.590873015873" y="-3383.0" />
+      <point x="2636.5" y="-3383.0" />
+      <point x="-61.5" y="97.5" />
+    </edge>
+    <edge source="com.careSystem.service.impl.EstimateServiceImpl" target="com.careSystem.utils.Util" relationship="DEPENDENCY">
+      <point x="98.625" y="-87.0" />
+      <point x="1117.6158730158731" y="-3718.0" />
+      <point x="2420.0" y="-3718.0" />
+      <point x="0.0" y="52.0" />
+    </edge>
+    <edge source="com.careSystem.tables.WorkTable" target="com.careSystem.pojo.Worker" relationship="DEPENDENCY">
+      <point x="-77.33333333333337" y="-167.5" />
+      <point x="377.66666666666663" y="-2260.0" />
+      <point x="151.0" y="-2260.0" />
+      <point x="151.0" y="-2569.5" />
+      <point x="680.25" y="-2569.5" />
+      <point x="0.0" y="178.5" />
+    </edge>
+    <edge source="com.careSystem.view.FormWorkList" target="com.careSystem.view.AddFormWork" relationship="DEPENDENCY">
+      <point x="-16.333333333333485" y="-98.0" />
+      <point x="3200.6666666666665" y="-2758.5" />
+      <point x="2848.590873015873" y="-2758.5" />
+      <point x="-49.0" y="63.5" />
+    </edge>
+    <edge source="com.careSystem.view.AddFormWork" target="com.careSystem.view.FormWorkList" relationship="DEPENDENCY">
+      <point x="49.0" y="63.5" />
+      <point x="2946.590873015873" y="-2788.5" />
+      <point x="3233.3333333333335" y="-2788.5" />
+      <point x="16.33333333333333" y="-98.0" />
+    </edge>
+    <edge source="com.careSystem.view.FormWorkFrame" target="com.careSystem.view.QuestionFrame" relationship="DEPENDENCY">
+      <point x="50.0" y="75.0" />
+      <point x="3498.5" y="-1746.5" />
+      <point x="4080.1666666666665" y="-1746.5" />
+      <point x="-21.666666666666686" y="-86.5" />
+    </edge>
+    <edge source="com.careSystem.view.QuestionFrame" target="com.careSystem.view.FormWorkFrame" relationship="DEPENDENCY">
+      <point x="-65.0" y="-86.5" />
+      <point x="4036.833333333333" y="-1736.5" />
+      <point x="3398.5" y="-1736.5" />
+      <point x="-50.0" y="75.0" />
+    </edge>
+    <edge source="com.careSystem.view.PatientFrame" target="com.careSystem.view.QuestionFrame" relationship="DEPENDENCY">
+      <point x="100.0" y="-144.0" />
+      <point x="1968.0" y="-1298.0" />
+      <point x="4101.833333333333" y="-1298.0" />
+      <point x="0.0" y="86.5" />
+    </edge>
+    <edge source="com.careSystem.view.QuestionFrame" target="com.careSystem.pojo.FQ_Link" relationship="CREATE">
+      <point x="86.66666666666697" y="-86.5" />
+      <point x="4188.5" y="-1726.5" />
+      <point x="4460.0" y="-1726.5" />
+      <point x="4460.0" y="-4049.0" />
+      <point x="4360.0" y="-4049.0" />
+      <point x="4360.0" y="-4148.0" />
+      <point x="4337.0" y="-4148.0" />
+      <point x="0.0" y="98.0" />
+    </edge>
+    <edge source="com.careSystem.view.Login" target="com.careSystem.service.impl.WorkServiceImpl" relationship="TO_ONE">
+      <point x="-67.39999999999998" y="-121.0" />
+      <point x="832.6" y="-1620.0" />
+      <point x="798.0" y="-1620.0" />
+      <point x="0.0" y="144.5" />
+    </edge>
+    <edge source="com.careSystem.tables.FQLinkTable" target="com.careSystem.service.QuesService" relationship="TO_ONE">
+      <point x="46.40000000000009" y="-144.5" />
+      <point x="3507.4" y="-2770.0" />
+      <point x="3893.590873015873" y="-2770.0" />
+      <point x="3893.590873015873" y="-2994.5" />
+      <point x="4138.0" y="-2994.5" />
+      <point x="4138.0" y="-3708.0" />
+      <point x="4158.0" y="-3708.0" />
+      <point x="4158.0" y="-3829.5" />
+      <point x="3668.0" y="-3829.5" />
+      <point x="64.0" y="74.0" />
+    </edge>
+    <edge source="com.careSystem.view.MyEditor" target="com.careSystem.view.EstimateFrame" relationship="DEPENDENCY">
+      <point x="0.0" y="-202.0" />
+      <point x="0.0" y="132.5" />
+    </edge>
+    <edge source="com.careSystem.tables.PatientTable" target="com.careSystem.utils.Util" relationship="DEPENDENCY">
+      <point x="-77.33333333333348" y="-156.0" />
+      <point x="2217.6666666666665" y="-2258.5" />
+      <point x="1967.3333333333333" y="-2258.5" />
+      <point x="1967.3333333333333" y="-2648.5" />
+      <point x="1917.590873015873" y="-2648.5" />
+      <point x="1917.590873015873" y="-3718.0" />
+      <point x="2420.0" y="-3718.0" />
+      <point x="0.0" y="52.0" />
+    </edge>
+    <edge source="com.careSystem.view.FormWorkFrame" target="com.careSystem.tables.FQLinkTable" relationship="CREATE">
+      <point x="12.5" y="-75.0" />
+      <point x="0.0" y="144.5" />
+    </edge>
+    <edge source="com.careSystem.dao.impl.FQLinkDaoImpl" target="com.careSystem.pojo.FQ_Link" relationship="DEPENDENCY">
+      <point x="57.0" y="-110.0" />
+      <point x="4006.0" y="-3798.0" />
+      <point x="4340.0" y="-3798.0" />
+      <point x="4340.0" y="-4049.0" />
+      <point x="4360.0" y="-4049.0" />
+      <point x="4360.0" y="-4148.0" />
+      <point x="4337.0" y="-4148.0" />
+      <point x="0.0" y="98.0" />
+    </edge>
+    <edge source="com.careSystem.view.FormWorkList" target="com.careSystem.utils.Util" relationship="DEPENDENCY">
+      <point x="-81.66666666666652" y="-98.0" />
+      <point x="3135.3333333333335" y="-2738.5" />
+      <point x="2502.590873015873" y="-2738.5" />
+      <point x="2502.590873015873" y="-3153.0" />
+      <point x="2500.0" y="-3153.0" />
+      <point x="2500.0" y="-3718.0" />
+      <point x="2420.0" y="-3718.0" />
+      <point x="0.0" y="52.0" />
+    </edge>
+    <edge source="com.careSystem.tables.PatientTable" target="com.careSystem.pojo.Patient" relationship="DEPENDENCY">
+      <point x="0.0" y="-156.0" />
+      <point x="2295.0" y="-2268.5" />
+      <point x="2167.0" y="-2268.5" />
+      <point x="2167.0" y="-2746.0" />
+      <point x="2150.090873015873" y="-2746.0" />
+      <point x="0.0" y="178.5" />
+    </edge>
+    <edge source="com.careSystem.dao.FQLinkDao" target="com.careSystem.pojo.FQ_Link" relationship="DEPENDENCY">
+      <point x="0.0" y="-51.0" />
+      <point x="4211.0" y="-4049.0" />
+      <point x="4360.0" y="-4049.0" />
+      <point x="4360.0" y="-4148.0" />
+      <point x="4337.0" y="-4148.0" />
+      <point x="0.0" y="98.0" />
+    </edge>
+    <edge source="com.careSystem.view.EstimateFrame" target="com.careSystem.pojo.Estimate" relationship="CREATE">
+      <point x="0.0" y="-132.5" />
+      <point x="1551.5" y="-2215.0" />
+      <point x="1552.590873015873" y="-2215.0" />
+      <point x="1552.590873015873" y="-4003.5" />
+      <point x="1096.865873015873" y="-4003.5" />
+      <point x="1096.865873015873" y="-4079.0" />
+      <point x="1375.090873015873" y="-4079.0" />
+      <point x="-98.75" y="167.0" />
+    </edge>
+    <edge source="com.careSystem.view.AddQuestionFrame" target="com.careSystem.service.QuesService" relationship="TO_ONE">
+      <point x="0.0" y="-121.0" />
+      <point x="4327.5" y="-2648.5" />
+      <point x="4420.0" y="-2648.5" />
+      <point x="4420.0" y="-3708.0" />
+      <point x="4158.0" y="-3708.0" />
+      <point x="4158.0" y="-3829.5" />
+      <point x="3668.0" y="-3829.5" />
+      <point x="64.0" y="74.0" />
+    </edge>
+    <edge source="com.careSystem.service.impl.PatientServiceImpl" target="com.careSystem.utils.Util" relationship="DEPENDENCY">
+      <point x="33.625" y="-133.0" />
+      <point x="2629.125" y="-2268.5" />
+      <point x="2506.0" y="-2268.5" />
+      <point x="2506.0" y="-2648.5" />
+      <point x="2402.590873015873" y="-2648.5" />
+      <point x="2402.590873015873" y="-3153.0" />
+      <point x="2400.0" y="-3153.0" />
+      <point x="2400.0" y="-3718.0" />
+      <point x="2420.0" y="-3718.0" />
+      <point x="0.0" y="52.0" />
+    </edge>
+    <edge source="com.careSystem.view.QuestionFrame" target="com.careSystem.view.MyquestionEditor" relationship="CREATE">
+      <point x="21.66666666666697" y="-86.5" />
+      <point x="0.0" y="190.5" />
+    </edge>
+    <edge source="com.careSystem.view.Login" target="com.careSystem.service.WorkService" relationship="TO_ONE">
+      <point x="-134.79999999999995" y="-121.0" />
+      <point x="765.2" y="-910.0" />
+      <point x="606.0" y="-910.0" />
+      <point x="606.0" y="-2250.0" />
+      <point x="611.75" y="-2250.0" />
+      <point x="-68.5" y="97.0" />
+    </edge>
+    <edge source="com.careSystem.view.PatientFrame" target="com.careSystem.view.UpdateWorkFrame" relationship="DEPENDENCY">
+      <point x="-80.0" y="-144.0" />
+      <point x="1788.0" y="-1308.0" />
+      <point x="1102.5" y="-1308.0" />
+      <point x="0.0" y="109.5" />
+    </edge>
+    <edge source="com.careSystem.service.WorkService" target="com.careSystem.pojo.Worker" relationship="DEPENDENCY">
+      <point x="0.0" y="-97.0" />
+      <point x="0.0" y="178.5" />
+    </edge>
+    <edge source="com.careSystem.view.AddpatientFrame" target="com.careSystem.service.PatientService" relationship="TO_ONE">
+      <point x="88.66666666666652" y="-121.0" />
+      <point x="2104.6666666666665" y="-2238.5" />
+      <point x="2249.25" y="-2238.5" />
+      <point x="-67.25" y="74.0" />
+    </edge>
+    <edge source="com.careSystem.tables.EstimateTable" target="com.careSystem.utils.Util" relationship="DEPENDENCY">
+      <point x="79.0" y="-144.5" />
+      <point x="1377.990873015873" y="-3718.0" />
+      <point x="2420.0" y="-3718.0" />
+      <point x="0.0" y="52.0" />
+    </edge>
+    <edge source="com.careSystem.view.AddpatientFrame" target="com.careSystem.pojo.Patient" relationship="CREATE">
+      <point x="-88.66666666666674" y="-121.0" />
+      <point x="1927.3333333333333" y="-2580.5" />
+      <point x="2167.0" y="-2580.5" />
+      <point x="2167.0" y="-2746.0" />
+      <point x="2150.090873015873" y="-2746.0" />
+      <point x="0.0" y="178.5" />
+    </edge>
+    <edge source="com.careSystem.view.PatientFrame" target="com.careSystem.tables.PatientTable" relationship="CREATE">
+      <point x="20.0" y="-144.0" />
+      <point x="1888.0" y="-1338.0" />
+      <point x="1908.0" y="-1338.0" />
+      <point x="1908.0" y="-1620.0" />
+      <point x="2295.0" y="-1620.0" />
+      <point x="0.0" y="156.0" />
+    </edge>
+    <edge source="com.careSystem.view.FormWorkFrame" target="com.careSystem.pojo.FQ_Link" relationship="CREATE">
+      <point x="37.5" y="-75.0" />
+      <point x="3486.0" y="-2177.5" />
+      <point x="3592.0" y="-2177.5" />
+      <point x="3592.0" y="-2658.5" />
+      <point x="3933.590873015873" y="-2658.5" />
+      <point x="3933.590873015873" y="-2984.5" />
+      <point x="4118.0" y="-2984.5" />
+      <point x="4118.0" y="-3728.0" />
+      <point x="4400.0" y="-3728.0" />
+      <point x="4400.0" y="-4049.0" />
+      <point x="4360.0" y="-4049.0" />
+      <point x="4360.0" y="-4148.0" />
+      <point x="4337.0" y="-4148.0" />
+      <point x="0.0" y="98.0" />
+    </edge>
+    <edge source="com.careSystem.view.ManagerFrame" target="com.careSystem.view.Login" relationship="DEPENDENCY">
+      <point x="49.5" y="-98.0" />
+      <point x="652.0" y="-578.0" />
+      <point x="984.25" y="-578.0" />
+      <point x="84.25" y="121.0" />
+    </edge>
+    <edge source="com.careSystem.view.Login" target="com.careSystem.view.ManagerFrame" relationship="DEPENDENCY">
+      <point x="-84.25" y="121.0" />
+      <point x="815.75" y="-588.0" />
+      <point x="619.0" y="-588.0" />
+      <point x="16.5" y="-98.0" />
+    </edge>
+    <edge source="com.careSystem.service.impl.WorkServiceImpl" target="com.careSystem.utils.Util" relationship="DEPENDENCY">
+      <point x="102.75" y="-144.5" />
+      <point x="900.75" y="-2260.0" />
+      <point x="913.75" y="-2260.0" />
+      <point x="913.75" y="-3143.0" />
+      <point x="872.490873015873" y="-3143.0" />
+      <point x="872.490873015873" y="-3718.0" />
+      <point x="2420.0" y="-3718.0" />
+      <point x="0.0" y="52.0" />
+    </edge>
+    <edge source="com.careSystem.view.EstimateFrame" target="com.careSystem.pojo.Worker" relationship="CREATE">
+      <point x="-81.09090909090924" y="-132.5" />
+      <point x="1470.4090909090908" y="-2270.0" />
+      <point x="1230.590873015873" y="-2270.0" />
+      <point x="1230.590873015873" y="-2569.5" />
+      <point x="680.25" y="-2569.5" />
+      <point x="0.0" y="178.5" />
+    </edge>
+    <edge source="com.careSystem.service.impl.PatientServiceImpl" target="com.careSystem.service.PatientService" relationship="REALIZATION">
+      <point x="-100.875" y="-133.0" />
+      <point x="2494.625" y="-2248.5" />
+      <point x="2383.75" y="-2248.5" />
+      <point x="67.25" y="74.0" />
+    </edge>
+    <edge source="com.careSystem.service.PatientService" target="com.careSystem.pojo.Patient" relationship="DEPENDENCY">
+      <point x="0.0" y="-74.0" />
+      <point x="2316.5" y="-2580.5" />
+      <point x="2167.0" y="-2580.5" />
+      <point x="2167.0" y="-2746.0" />
+      <point x="2150.090873015873" y="-2746.0" />
+      <point x="0.0" y="178.5" />
+    </edge>
+    <edge source="com.careSystem.service.impl.QuesServiceImpl" target="com.careSystem.dao.QuesDao" relationship="TO_ONE">
+      <point x="-32.0" y="-121.5" />
+      <point x="3625.0" y="-3789.5" />
+      <point x="3440.5" y="-3789.5" />
+      <point x="3440.5" y="-3841.0" />
+      <point x="3362.0" y="-3841.0" />
+      <point x="64.0" y="62.5" />
+    </edge>
+    <edge source="com.careSystem.tables.QuestionTable" target="com.careSystem.service.QuesService" relationship="TO_ONE">
+      <point x="0.0" y="-167.5" />
+      <point x="4289.0" y="-3708.0" />
+      <point x="4158.0" y="-3708.0" />
+      <point x="4158.0" y="-3829.5" />
+      <point x="3668.0" y="-3829.5" />
+      <point x="64.0" y="74.0" />
+    </edge>
+    <edge source="com.careSystem.view.Login" target="com.careSystem.utils.Util" relationship="DEPENDENCY">
+      <point x="134.79999999999995" y="-121.0" />
+      <point x="1034.8" y="-910.0" />
+      <point x="2745.0" y="-910.0" />
+      <point x="2745.0" y="-2288.5" />
+      <point x="2526.0" y="-2288.5" />
+      <point x="2526.0" y="-2658.5" />
+      <point x="2422.590873015873" y="-2658.5" />
+      <point x="2422.590873015873" y="-3153.0" />
+      <point x="2420.0" y="-3153.0" />
+      <point x="0.0" y="52.0" />
+    </edge>
+    <edge source="com.careSystem.service.FQLinkService" target="com.careSystem.pojo.Question" relationship="DEPENDENCY">
+      <point x="-76.25" y="-85.5" />
+      <point x="0.0" y="132.5" />
+    </edge>
+    <edge source="com.careSystem.service.impl.PatientServiceImpl" target="com.careSystem.pojo.Patient" relationship="CREATE">
+      <point x="-33.625" y="-133.0" />
+      <point x="2561.875" y="-2258.5" />
+      <point x="2486.0" y="-2258.5" />
+      <point x="2486.0" y="-2580.5" />
+      <point x="2167.0" y="-2580.5" />
+      <point x="2167.0" y="-2746.0" />
+      <point x="2150.090873015873" y="-2746.0" />
+      <point x="0.0" y="178.5" />
+    </edge>
+    <edge source="com.careSystem.view.EstimateFrame" target="com.careSystem.pojo.Patient" relationship="DEPENDENCY">
+      <point x="40.545454545454504" y="-132.5" />
+      <point x="1592.0454545454545" y="-2215.0" />
+      <point x="1592.590873015873" y="-2215.0" />
+      <point x="1592.590873015873" y="-2580.5" />
+      <point x="2167.0" y="-2580.5" />
+      <point x="2167.0" y="-2746.0" />
+      <point x="2150.090873015873" y="-2746.0" />
+      <point x="0.0" y="178.5" />
+    </edge>
+    <edge source="com.careSystem.tables.FQLinkTable" target="com.careSystem.pojo.FQ_Link" relationship="DEPENDENCY">
+      <point x="92.80000000000018" y="-144.5" />
+      <point x="3553.8" y="-2760.0" />
+      <point x="3913.590873015873" y="-2760.0" />
+      <point x="3913.590873015873" y="-3004.5" />
+      <point x="4098.0" y="-3004.5" />
+      <point x="4098.0" y="-3778.0" />
+      <point x="4380.0" y="-3778.0" />
+      <point x="4380.0" y="-4049.0" />
+      <point x="4360.0" y="-4049.0" />
+      <point x="4360.0" y="-4148.0" />
+      <point x="4337.0" y="-4148.0" />
+      <point x="0.0" y="98.0" />
+    </edge>
+    <edge source="com.careSystem.service.impl.WorkServiceImpl" target="com.careSystem.service.WorkService" relationship="REALIZATION">
+      <point x="-34.25" y="-144.5" />
+      <point x="763.75" y="-2260.0" />
+      <point x="748.75" y="-2260.0" />
+      <point x="68.5" y="97.0" />
+    </edge>
+    <edge source="com.careSystem.service.impl.FQLinkServiceImpl" target="com.careSystem.dao.FormDao" relationship="TO_ONE">
+      <point x="-133.4375" y="-144.5" />
+      <point x="3592.653373015873" y="-3293.0" />
+      <point x="2971.5" y="-3293.0" />
+      <point x="-60.5" y="62.5" />
+    </edge>
+    <edge source="com.careSystem.dao.impl.PatientDaoImpl" target="com.careSystem.dao.PatientDao" relationship="REALIZATION">
+      <point x="-67.25" y="-156.0" />
+      <point x="2847.25" y="-2298.5" />
+      <point x="2742.75" y="-2298.5" />
+      <point x="67.25" y="74.0" />
+    </edge>
+    <edge source="com.careSystem.view.QuziFrame" target="com.careSystem.view.AdviceFrame" relationship="DEPENDENCY">
+      <point x="-100.40000000000009" y="-86.5" />
+      <point x="57.0" y="40.0" />
+    </edge>
+    <edge source="com.careSystem.view.AdviceFrame" target="com.careSystem.service.impl.EstimateServiceImpl" relationship="DEPENDENCY">
+      <point x="57.0" y="-40.0" />
+      <point x="1311.690873015873" y="-3163.0" />
+      <point x="1018.990873015873" y="-3163.0" />
+      <point x="0.0" y="87.0" />
+    </edge>
+    <edge source="com.careSystem.tables.EstimateTable" target="com.careSystem.pojo.Estimate" relationship="DEPENDENCY">
+      <point x="0.0" y="-144.5" />
+      <point x="1298.990873015873" y="-4003.5" />
+      <point x="1096.865873015873" y="-4003.5" />
+      <point x="1096.865873015873" y="-4079.0" />
+      <point x="1375.090873015873" y="-4079.0" />
+      <point x="-98.75" y="167.0" />
+    </edge>
+    <edge source="com.careSystem.dao.impl.QuesDaoImpl" target="com.careSystem.pojo.Question" relationship="DEPENDENCY">
+      <point x="64.0" y="-144.5" />
+      <point x="3435.0" y="-3728.0" />
+      <point x="3441.0" y="-3728.0" />
+      <point x="3441.0" y="-4059.0" />
+      <point x="3838.25" y="-4059.0" />
+      <point x="0.0" y="132.5" />
+    </edge>
+    <edge source="com.careSystem.view.AddFormWork" target="com.careSystem.service.FormService" relationship="TO_ONE">
+      <point x="-65.33333333333334" y="-63.5" />
+      <point x="2832.2575396825396" y="-3143.0" />
+      <point x="2764.590873015873" y="-3143.0" />
+      <point x="2764.590873015873" y="-3383.0" />
+      <point x="2636.5" y="-3383.0" />
+      <point x="-61.5" y="97.5" />
+    </edge>
+    <edge source="com.careSystem.service.impl.FQLinkServiceImpl" target="com.careSystem.utils.Util" relationship="DEPENDENCY">
+      <point x="-95.3125" y="-144.5" />
+      <point x="3630.778373015873" y="-3313.0" />
+      <point x="3168.0" y="-3313.0" />
+      <point x="3168.0" y="-3718.0" />
+      <point x="2420.0" y="-3718.0" />
+      <point x="0.0" y="52.0" />
+    </edge>
+    <edge source="com.careSystem.view.QuestionFrame" target="com.careSystem.service.QuesService" relationship="TO_ONE">
+      <point x="-43.333333333333485" y="-86.5" />
+      <point x="4058.4999999999995" y="-1756.5" />
+      <point x="3787.0" y="-1756.5" />
+      <point x="3787.0" y="-2648.5" />
+      <point x="3953.590873015873" y="-2648.5" />
+      <point x="3953.590873015873" y="-2974.5" />
+      <point x="4158.0" y="-2974.5" />
+      <point x="4158.0" y="-3829.5" />
+      <point x="3668.0" y="-3829.5" />
+      <point x="64.0" y="74.0" />
+    </edge>
+    <edge source="com.careSystem.view.QuestionFrame" target="com.careSystem.service.impl.FQLinkServiceImpl" relationship="DEPENDENCY">
+      <point x="65.0" y="-86.5" />
+      <point x="4166.833333333333" y="-1736.5" />
+      <point x="4440.0" y="-1736.5" />
+      <point x="4440.0" y="-2628.5" />
+      <point x="3579.090873015873" y="-2628.5" />
+      <point x="3579.090873015873" y="-2780.0" />
+      <point x="3726.090873015873" y="-2780.0" />
+      <point x="0.0" y="144.5" />
+    </edge>
+    <edge source="com.careSystem.dao.impl.WorkDaoImpl" target="com.careSystem.pojo.Worker" relationship="CREATE">
+      <point x="-68.5" y="-167.5" />
+      <point x="103.5" y="-2250.0" />
+      <point x="20.0" y="-2250.0" />
+      <point x="20.0" y="-2569.5" />
+      <point x="680.25" y="-2569.5" />
+      <point x="0.0" y="178.5" />
+    </edge>
+    <edge source="com.careSystem.dao.EstimateDao" target="com.careSystem.pojo.Estimate" relationship="DEPENDENCY">
+      <point x="0.0" y="-40.0" />
+      <point x="806.240873015873" y="-4003.5" />
+      <point x="1096.865873015873" y="-4003.5" />
+      <point x="1096.865873015873" y="-4079.0" />
+      <point x="1375.090873015873" y="-4079.0" />
+      <point x="-98.75" y="167.0" />
+    </edge>
+    <edge source="com.careSystem.service.impl.FQLinkServiceImpl" target="com.careSystem.pojo.Question" relationship="DEPENDENCY">
+      <point x="19.0625" y="-144.5" />
+      <point x="3745.153373015873" y="-3159.0" />
+      <point x="3800.0" y="-3159.0" />
+      <point x="3800.0" y="-3819.5" />
+      <point x="3747.0" y="-3819.5" />
+      <point x="3747.0" y="-4059.0" />
+      <point x="3838.25" y="-4059.0" />
+      <point x="0.0" y="132.5" />
+    </edge>
+    <edge source="com.careSystem.view.EstimateFrame" target="com.careSystem.utils.Util" relationship="DEPENDENCY">
+      <point x="60.818181818181756" y="-132.5" />
+      <point x="1612.3181818181818" y="-2215.0" />
+      <point x="1612.590873015873" y="-2215.0" />
+      <point x="1612.590873015873" y="-3718.0" />
+      <point x="2420.0" y="-3718.0" />
+      <point x="0.0" y="52.0" />
+    </edge>
+    <edge source="com.careSystem.view.UpdateWorkFrame" target="com.careSystem.pojo.Worker" relationship="DEPENDENCY">
+      <point x="0.0" y="-109.5" />
+      <point x="1102.5" y="-2569.5" />
+      <point x="680.25" y="-2569.5" />
+      <point x="0.0" y="178.5" />
+    </edge>
+    <edge source="com.careSystem.view.FormWorkFrame" target="com.careSystem.service.FormService" relationship="TO_ONE">
+      <point x="-12.5" y="-75.0" />
+      <point x="3436.0" y="-2187.5" />
+      <point x="3330.0" y="-2187.5" />
+      <point x="3330.0" y="-2778.5" />
+      <point x="2784.590873015873" y="-2778.5" />
+      <point x="2784.590873015873" y="-3143.0" />
+      <point x="2764.590873015873" y="-3143.0" />
+      <point x="2764.590873015873" y="-3383.0" />
+      <point x="2636.5" y="-3383.0" />
+      <point x="-61.5" y="97.5" />
+    </edge>
+    <edge source="com.careSystem.view.FormWorkList" target="com.careSystem.service.FormService" relationship="TO_ONE">
+      <point x="49.0" y="-98.0" />
+      <point x="3266.0" y="-2768.5" />
+      <point x="2764.590873015873" y="-2768.5" />
+      <point x="2764.590873015873" y="-3383.0" />
+      <point x="2636.5" y="-3383.0" />
+      <point x="-61.5" y="97.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.3999999999999999" showDependencies="true" x="1223.2500000000002" y="-3646.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

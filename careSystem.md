@@ -1,5 +1,5 @@
 # 颐养中心
-一个简单的，功能不完整的颐养系统
+  一个简单的，功能不完整的颐养系统
 
 as a summer term training work
 
@@ -45,4 +45,5 @@ as a summer term training work
 - [ICON图标](https://www.iconfont.cn/)
 - [MVC与三层架构](https://blog.csdn.net/weixin_42153410/article/details/90753696)
 - [Java Swing 主题](https://github.com/JFormDesigner/FlatLaf)
-# NEUcareSystem
+
+
